@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application form</title>
+</head>
+<body align="center">
+    <header>
+        <h1 align="center">JOB APPLCIATION</h1>
+    </header>
+    <main>
+        <form action="">
+            <h2>Personal Details</h2>
+            <label for="first_name">Name</label>
+            <input type="text" id="first_name" placeholder="First Name" required>
+            <input type="text" id="middle_name" placeholder="Middle Name">
+            <input type="text" id="last_name" placeholder="Last Name">
+    
+            <br>
+            <br>
+    
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option disabled selected>Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+    
+            <br>
+            <br>
+    
+            
+            <label for="dateOfBirth">Date of Birth</label>
+            <input type="date" id="dateOfBirth">
+            
+            <br>
+            <br>
+            
+            <label for="fatherName">Father's Name</label>
+            <input type="text" id="fatherName">
+            
+            <br>
+            <br>
+    
+            <label for="nationality">Nationality</label>
+            <input type="text" name="nationality" id="nationality"></input>
+    
+            <br>
+            <br>
+            
+            <h2>Address</h2>
+            <h3>Present Address</h3>
+    
+            <label for="addressLine1">Address Line 1: </label>
+            <input type="text" id="addressLine1"> <br>
+            
+            <label for="addressLine2">Address Line 2: </label>
+            <input type="text" id="addressLine2"> <br>
+    
+            <label for="city">City: </label>
+            <input type="text" id="city"> <br>
+    
+            <label for="state">State/Provincce/Region: </label>
+            <input type="text" id="state"> <br>
+    
+            <label for="zip">ZIP/Postal Code: </label>
+            <input type="number" id="zip"> <br>
+    
+            <br>
+            <h3>Correspondence Address</h3>
+    
+            <label for="sameAsPresent">Same as present address</label>
+            <input type="checkbox" id="sameAsPresent">  <br>
+
+            <label for="addressLine1">Address Line 1: </label>
+            <input type="text" id="addressLine1"> <br>
+            
+            <label for="addressLine2">Address Line 2: </label>
+            <input type="text" id="addressLine2"> <br>
+    
+            <label for="city">City: </label>
+            <input type="text" id="city"> <br>
+    
+            <label for="state">State/Provincce/Region: </label>
+            <input type="text" id="state"> <br>
+    
+            <label for="zip">ZIP/Postal Code: </label>
+            <input type="number" id="zip"> <br>
+    
+            <br>
+            <br>
+            
+            <h2>Contact details</h2>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="ex. ane.doe@domain.com" checked>
+        
+            <br>
+            <br>
+    
+            <label for="phone">Phone No.</label>
+            <select name="countryCode" id="countryCode" title="countryCode">
+                <option disabled selected>Select</option>
+                <option value="india">+91</option>
+                <option value="pakistan">+92</option>
+                <option value="usa">+1</option>
+                <option value="mexico">+52</option>
+            </select>
+            <input type="number" id="phone" placeholder="">
+    
+            <br>
+            <br>
+    
+            <h2>Skills</h2> <br>
+            <input type="checkbox" id="dsa" value="dsa"> 
+            <label for="dsa">Data Structure and Algorithms</label> <br>
+            
+            <input type="checkbox" id="php" value="php"> 
+            <label for="php">PHP</label> <br>
+            
+            <input type="checkbox" id="dsa" value="dsa"> 
+            <label for="dsa">Low code deployment</label> <br>
+            
+            <input type="checkbox" id="sql" value="sql"> 
+            <label for="sql">SQL</label> <br>
+            
+            <input type="checkbox" id="java" value="java"> 
+            <label for="java">Java</label> <br>
+            
+            <input type="checkbox" id="blockchain" value="blockchain"> 
+            <label for="blockchain">Blockchain</label> <br>
+            
+            <input type="checkbox" id="cloudComputing" value="cloudComputing"> 
+            <label for="cloudComputing">Cloud Computing</label> <br>
+            
+            <input type="checkbox" id="appDevelopment" value="appDevelopment"> 
+            <label for="appDevelopment">App development</label> <br>
+            
+            <input type="checkbox" id="devOps" value="devOps"> 
+            <label for="devOps">DevOps</label> <br>
+            
+            <input type="checkbox" id="ai" value="ai"> 
+            <label for="ai">Artificial Intelligence</label> <br>
+            
+            <input type="checkbox" id="other" value="other"> 
+            <label for="other">
+                <label for="otherSkills">Others</label>
+                <textarea name="otherSkills" id="otherSkills"></textarea>
+            </label>  <br>
+            
+            <br>
+            <br>
+    
+            <h2>Upload documents</h2>
+    
+            <label for="resume">Upload resume or cover letter: </label>
+            <input type="file" id="resume" name="resume" accept="image/png, image/jpeg, image/tiff, image/bmp, image/pdf">
+    
+            <br>
+            <br>
+    
+            <label for="photograph">Photograph </label>
+            <input type="file" id="photograph" name="photograph" accept="image/png, image/jpeg, image/tiff, image/bmp, image/pdf">
+    
+            <br>
+            <br>
+    
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
