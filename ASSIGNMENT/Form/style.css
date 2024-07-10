@@ -1,0 +1,37 @@
+/* body{
+    background-image: url(istockphoto-475352876-612x612.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+    background-size: 100% 100%;
+} */
+
+body {
+    
+    background-image: url(istockphoto-475352876-612x612.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-attachment: fixed;
+   
+    background-size: 100% 100%;
+  }
+
+
+option{
+    background-color: black;
+    color: orange;
+}
+
+label{
+
+    background-color: black;
+    color: orange;
+
+}
+
+h2 , h3{
+    
+    background-color: black;
+    color: orange;
+
+}
