@@ -1,0 +1,22 @@
+h1{
+    background-color: rgba(135, 135, 236, 0.408);
+
+}
+
+#superhero{
+    color: rgb(187, 232, 217);
+    background-color: black;
+    display: inline;
+    /* height: 100px; */
+    /* width: 100px; */
+}
+
+input[type = "text"]{
+    background-color: orchid;
+}
+
+.low{
+    background-color: azure;
+    color: brown;
+    border: 10px dotted rgb(4, 173, 125);
+}
