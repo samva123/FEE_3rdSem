@@ -1,0 +1,19 @@
+/* difference between margin and padding */
+
+body{
+    border: 20px solid aquamarine;
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid forestgreen;
+}
+
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
