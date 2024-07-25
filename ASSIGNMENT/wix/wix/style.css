@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav1 {
+    text-align: center;
+    padding: 12px;
+    color: white;
+    background-color: black;
+}
+.nav2 {
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav2 > div {
+    box-sizing: border-box;
+    display: flex;
+}
+.nav2 > div > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b-right{
+    border-right: 1px solid black;
+}
+.b-left{
+    border-left: 1px solid black;
+}
+.nright > span{
+    padding: 0 60px;
+}
+.nb1 {
+    padding: 0 30px;
+    background-color: #d6ff38;
+    font-weight: 600;
+    font-size: 20px;
+}
+.section1 {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section1 > h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+.section1 > p {
+    width: 330px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: #d6ff38;
+}
+.section2 {
+    margin-top: 30px;
+    height: 450px;
+    display: flex;
+
+    justify-content:space-between;
+}
+.section2 > image {
+    width: 100vw;
+}
+.img1, .img3 {
+    width: 25%;
+    
+}
+.img2 {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.section3 {
+    padding-top: 65px;
+    padding-bottom: 35px;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+.section4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    padding: 0 80px;
+    column-gap: 60px;
+    row-gap: 30px;
+}
+.sec4boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sec4boxes img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.section5 {
+    text-align: center;
+    padding: 50px 0 30px;
+}
+.section5 > span {
+    border: 1px solid black;
+    background-color: black;
+    color: #d6ff38;
+    display: inline-block;
+    width: 150px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+.section6 {
+    width: 100vw;
+    height: 700px;
+    display: flex;
+}
+.section6 > .left {
+    background: linear-gradient(white, #d6ff38);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.section6 > .left svg {
+    height: 50px;
+}
+.section6 > .left > span:nth-child(2) {
+    font-size: 25px;
+}
+.section6 > .left > span:nth-child(3) {
+    font-size: 100px;
+    font-weight: 900;
+}
+.section6 > .left > span:nth-child(4) {
+    font-size: 18px
+}
+.section6 > .right {
+    width: 40%;
+}
+.section6 > .right > img {
+    width: 100%;
+    height: 100%;
+}
+
+.section7 > .box1 {
+    padding: 40px 0 60px;
+    width: 950px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.section7 svg:nth-child(1) {
+    transform: rotateZ(90deg);
+    width: 40px;
+    height: 70px;
+}
+.section7 svg:nth-child(3) {
+    transform: rotateZ(-90deg);
+    width: 40px;
+    height: 70px;
+}
+.section7 span {
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.section8 table{
+    height: 340px; 
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.a1 {
+    width: 30%;
+    border: 1px solid black;
+    height: 75%;
+}
+.b1 {
+    width: 30%;
+    border: 1px solid black;
+    height: 25%;
+}
+.a2 {
+    border: 1px solid black;
+    width: 70%;
+    height: 75%;
+}
+.b2 {
+    border: 1px solid black;
+    width: 70%;
+    height: 25%;
+}
+.flex-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a1 .flex-container {
+    background-color: black;
+}
+.a1 .flex-container .child-container {
+    color: white;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.a1 span:nth-child(1) {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.a1 span:nth-child(2) {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.a1 span:nth-child(2) {
+    font-size: 15px;
+}
+.table {
+    width: 550px;
+    display: grid;
+    row-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.table-head {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.table-data {
+    font-size: 14px;
+}
+
+.b1 .flex-container {
+    gap: 15px;
+}
+.b2 .flex-container {
+    background-color: #d6ff38;
+}
+.b2 .flex-container > span {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.b2 a {
+    color: black;
+}
